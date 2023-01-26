@@ -3,12 +3,14 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
-
+import Billing from "../../Assets/Projects/Billing.png";
+import ChallengeShip from "../../Assets/Projects/ChallengeShip.png";
+import ai from "../../Assets/Projects/ai.png";
+import SO from "../../Assets/Projects/SO.png";
+import tic from "../../Assets/Projects/tic.png";
+import notify from "../../Assets/Projects/notify.png"
+import cah from "../../Assets/Projects/cah.png"
+import foodPrint from "../../Assets/Projects/foodPrint.png"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -23,18 +25,18 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={foodPrint}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="FoodPrint"
+              description="A Mobile App developed in ReactNative and Python that focuses on minimizing the carbon footprint of a given grocery list by suggesting alternative items, while also following budget and macronutrient constraints set by the user"
+              ghLink="https://github.com/tidaaartorhem/FoodPrint"
+              demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={leaf}
               isBlog={false}
               title="Collaborative Filtering on MovieLens"
               description="A research paper I wrote on comparing the performance of the Model Based Collaborative Filtering approach to the Memory Based Collaborative Filtering Approach"
@@ -44,7 +46,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={tic}
               isBlog={false}
               title="TicTacToe"
               description="A Simple Online Version of the classic TicTacToe Game"
@@ -55,7 +57,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={cah}
               isBlog={false}
               title="Cards Against Humanity"
               description="A Simple online version of the classic card game cards against humanity."
@@ -66,7 +68,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={ChallengeShip}
               isBlog={false}
               title="ChallengeShip"
               description="Challengeship is a mobile app that allows users to set daily goals, keep track of them, and share them with friends."
@@ -77,7 +79,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={notify}
               isBlog={false}
               title="Notify"
               description=" A Notification Service created in React that utilizes third part apis such as Twillio to remind people about driving license and license plate sticker renewals made for ServiceOntario"
@@ -87,7 +89,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={SO}
               isBlog={false}
               title="SO Location Finder"
               description="A Service Ontario Location finder web app made in VueJs that uses third part apis such as GoogleMaps to search and organize information about nearby Service Ontario Locations"
@@ -97,7 +99,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={Billing}
               isBlog={false}
               title="Super Market Billing System"
               description="A Simple online supermarket billing system that helps organize reciepts and payments with vendors and customers utilizing C++ classes and objects"
