@@ -11,6 +11,7 @@ import tic from "../../Assets/Projects/tic.png";
 import notify from "../../Assets/Projects/notify.png"
 import cah from "../../Assets/Projects/cah.png"
 import foodPrint from "../../Assets/Projects/foodPrint.png"
+import MLModel from "../../Assets/ML_Model.png"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -23,6 +24,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MLModel}
+              isBlog={false}
+              title="Supervised Learning for Credit Card Fraud detection"
+              description=""
+              ghLink="https://colab.research.google.com/drive/1aHnLzzomN4wgnPy3m5xntu25nWWxRUVD?usp=sharing"
+              demoLink=""
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={foodPrint}
@@ -33,6 +44,7 @@ function Projects() {
               demoLink=""
             />
           </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
