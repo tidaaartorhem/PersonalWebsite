@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Aadit Mehrotra </span>
             from <span className="purple"> Toronto, Canada.</span>
-            <br />I am a final year student pursuing a Bachelor of Applied Science in System Design Engineering at University of Waterloo.
+            <br />I am currently working at a Fintech Consulting firm called Capco in downtown Toronto. I recently graduated with a Bachelor of Applied Science in System Design Engineering at University of Waterloo.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

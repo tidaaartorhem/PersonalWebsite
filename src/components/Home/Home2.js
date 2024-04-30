@@ -22,33 +22,28 @@ function Home2() {
               I love breaking things but ever since I learnt porgramming have found a way to fix it too, I think… 🤷‍♂️
               <br />
               <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C#, Javascript and Python. </b>
-              </i>
+
+                <b className="purple"> Java, Javascript and Python. </b>
+   
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
+              Some areas that really get me excited are &nbsp;
+
+                <b className="purple">LargeScale WebApps, </b>
+                <b className="purple"> Natural Language Processing  and Cloud Architecture.
                 </b>
-              </i>
+
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
+              Whenever possible, I also love sharing my learnings on new technologies
+              with my blog posts on topics like <b className="purple">Artificial Intelligence</b> and
+
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                 Application Security.
                 </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React, Vue and Angular</b>
-              </i>
+
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">
